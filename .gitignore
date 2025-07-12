@@ -25,6 +25,3 @@ dist-ssr
 
 # Lock files
 *.lock*
-
-# Build
-docs/
