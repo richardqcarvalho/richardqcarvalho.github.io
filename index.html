@@ -69,6 +69,17 @@
     color: black;
   }
 
+  .links {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .link {
+    font-size: 16pt;
+  }
+
   .info-description,
   .subsection-title {
     font-size: 20pt;
@@ -151,15 +162,29 @@
       <div class="name-wrapper">
         <span class="first-name">Richard</span>
         <span class="last-name">Carvalho</span>
-        <span class="role">Fullstack Developer (Front-end focused)</span>
+        <span class="role">Fullstack Developer (Frontend focused)</span>
+        <div class="links">
+          <a
+            class="link"
+            href="https://github.com/richardqcarvalho"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            class="link"
+            href="https://linkedin.com/in/richardqcarvalho"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
       <div class="subsection">
         <span class="subsection-title">About me</span>
         <div class="infos">
-          <div class="info">
-            <span class="info-title">Birth date</span>
-            <span class="info-description">4/7/1998 (27 years old)</span>
-          </div>
           <div class="info">
             <span class="info-title">Location</span>
             <span class="info-description">Santa Luzia do Paruá, Maranhão, Brazil</span>
@@ -174,7 +199,7 @@
             <div>
               <a
                 class="info-description"
-                href="mailto:richardcarvalhooo@gmail.com"
+                href="mailto:richardcarvalhooo%40gmail.com"
               >
                 richardcarvalhooo@gmail.com
               </a>
@@ -185,10 +210,11 @@
             <div>
               <a
                 class="info-description"
-                href="https://wa.me/+5598985297969"
+                href="https://wa.me/5598985297969"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                +5598985297969
+                5598985297969
               </a>
             </div>
           </div>
@@ -199,80 +225,140 @@
       <span class="subsection-title">Language</span>
       <div class="infos">
         
-            <div class="info">
-              <span class="info-title">Portuguese</span>
-              <span class="info-description">Fluent</span>
-            </div>
-          
-            <div class="info">
-              <span class="info-title">English</span>
-              <span class="info-description">Advanced</span>
-            </div>
-          
+              <div class="info">
+                <span class="info-title">Portuguese</span>
+                <span class="info-description">Fluent</span>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">English</span>
+                <span class="info-description">Advanced</span>
+              </div>
+            
       </div>
     </div>
   
       
     <div class="subsection">
-      <span class="subsection-title">Experience (5y)</span>
+      <span class="subsection-title">Experience (6y, 10m)</span>
       <div class="infos">
         
-      <div class="info">
-        <span class="info-title">Front-end Desktop Developer</span>
-        <span class="info-subtitle">Nationwide Telephony Assistance</span>
-        <span class="info-subtitle">05/2022 to 07/2025 (3y, 2m)</span>
-        <span class="info-description">​I was responsible for the development of the MobeX UC desktop application, built with React and Electron, with application styles managed by Styled-components for a modular and maintainable user interface. My work involved designing and implementing a robust event-driven architecture that leveraged Websockets and WebRTC for real-time handling of call events and related information. I managed the application's data storage and state using a combination of Electron Store and the React Context API, ensuring data consistency across the main and renderer processes. Beyond development, I also contributed to a small project in Rust for clipboard management, enabling a seamless "click-to-call" feature. I regularly conducted code reviews for other developers' pull requests and collaborated with management and directors on key technical and product-related decisions. I followed Scrum and Kanban principles to organize my tasks and worked closely with design teams by using Figma.</span>
-        <div class="technologies">
-          <span class="technology">Bitbucket</span><span class="technology">ContextAPI</span><span class="technology">Electron</span><span class="technology">Jira</span><span class="technology">Kanban</span><span class="technology">React</span><span class="technology">Scrum</span><span class="technology">Styled-components</span><span class="technology">Webpack</span><span class="technology">WebRTC</span><span class="technology">Websockets</span>
-        </div>
-      </div>
-    
-      <div class="info">
-        <span class="info-title">Front-end Web and Mobile Developer</span>
-        <span class="info-subtitle">Develcode Tecnologia em Sistemas</span>
-        <span class="info-subtitle">03/2021 to 05/2022 (1y, 2m)</span>
-        <span class="info-description">I joined the front-end team for the Leroy Merlin web portals, using React, Redux, and pure CSS. My work included writing SQL queries for translations. I also occasionally supported the back-end team by contributing to their Java services when they were under heavy workload. I was then reallocated to the Droga Raia and Drogasil team, where I contributed to their mobile applications, built with React Native. I was part of a team working with a design system, where my responsibilities included contributing to the Node.js and GraphQL-based BFF. Although I was not officially titled as a leader, I leveraged my skills from various leadership courses to help guide the team. Throughout both projects, I collaborated closely with QA and design (Figma) teams and utilized Scrum and Kanban to ensure efficient project delivery.</span>
-        <div class="technologies">
-          <span class="technology">CSS</span><span class="technology">GitHub</span><span class="technology">GitLab</span><span class="technology">GraphQL</span><span class="technology">Java</span><span class="technology">Jira</span><span class="technology">Kanban</span><span class="technology">Node</span><span class="technology">React Native</span><span class="technology">React</span><span class="technology">Redux</span><span class="technology">Scrum</span><span class="technology">Springboot</span><span class="technology">SQL</span>
-        </div>
-      </div>
-    
-      <div class="info">
-        <span class="info-title">Full-stack Developer</span>
-        <span class="info-subtitle">Inforbyte</span>
-        <span class="info-subtitle">09/2020 to 02/2021 (5m)</span>
-        <span class="info-description">I contributed to the full-stack development of InforFrota, a multi-platform solution for managing public entity fleets. My work on the back end involved building a robust API with Node and Express, using Joi and Celebrate for data validation, all hosted on an Apache server with Nginx. I leveraged Sequelize to connect and interact with the Firebird SQL database. For the front end, I developed both a web dashboard using React, Redux, and Styled-components, and a mobile application with React Native and StyleSheet. Both platforms were connected to the back end using Axios, ensuring a seamless flow of data.</span>
-        <div class="technologies">
-          <span class="technology">Axios</span><span class="technology">Celebrate</span><span class="technology">Express</span><span class="technology">Firebird</span><span class="technology">Joi</span><span class="technology">Node</span><span class="technology">React Native</span><span class="technology">React</span><span class="technology">Redux</span><span class="technology">Sequelize</span><span class="technology">SQL</span><span class="technology">Styled-components</span><span class="technology">StyleSheet</span>
-        </div>
-      </div>
-    
-      <div class="info">
-        <span class="info-title">Front-end Web Developer</span>
-        <span class="info-subtitle">Nucleus of Engineering, Technology and Science</span>
-        <span class="info-subtitle">04/2020 to 07/2020 (2m)</span>
-        <span class="info-description">I developed the RDO (Daily Construction Report) platform, a mobile solution built with Angular and Ionic. The platform was designed to streamline the registration of construction activities, providing real-time data to help workers and managers with resource control and project visibility.</span>
-        <div class="technologies">
-          <span class="technology">Angular</span><span class="technology">CSS</span><span class="technology">Ionic</span><span class="technology">JavaScript</span>
-        </div>
-      </div>
-    
+              <div class="info">
+                <span class="info-title">Frontend Desktop Developer</span>
+                <span class="info-subtitle">Contented AI</span>
+                <span class="info-subtitle">10/2025 to Present (11m)</span>
+                <span class="info-description">I served as the lead developer for an AI-powered desktop application built with React and Electron, designed to capture meeting audio and transmit it to an endpoint for automated transcription and AI insights. I engineered the application&#39;s core architecture, including a native integration layer written in Rust, and implemented complex desktop features such as global hotkeys, deep linking, auto-save mechanisms, and crash recovery. To ensure stability and code quality across both processes, I established a comprehensive testing suite incorporating unit, integration, and end-to-end (E2E) tests.</span>
+                <div class="technologies"><span class="technology">React</span><span class="technology">Electron</span><span class="technology">Rust</span><span class="technology">Vite</span><span class="technology">Vitest</span><span class="technology">TypeScript</span><span class="technology">Playwright</span><span class="technology">TailwindCSS</span><span class="technology">Zustand</span><span class="technology">Sentry</span><span class="technology">Axios</span><span class="technology">AWS</span></div>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">Fullstack Developer</span>
+                <span class="info-subtitle">Flutter Brazil</span>
+                <span class="info-subtitle">10/2025 to Present (11m)</span>
+                <span class="info-description">I contributed to the development of a high-scale betting platform&#39;s web and mobile ecosystem, structured within a unified monorepo containing a Next.js web application and a React Native mobile app. My responsibilities centered on building and maintaining shared internal packages, including a custom Design System UI library, authentication modules, core business logic, and local storage handlers. I implemented feature flags to streamline deployments, integrated dynamic authentication flows, and enforced robust quality standards by writing unit, integration, and end-to-end (E2E) tests.</span>
+                <div class="technologies"><span class="technology">React</span><span class="technology">React Native</span><span class="technology">Next.js</span><span class="technology">Playwright</span><span class="technology">Jest</span><span class="technology">Storybook</span><span class="technology">TypeScript</span><span class="technology">WebSockets</span><span class="technology">AWS</span><span class="technology">Amplitude</span><span class="technology">Sentry</span><span class="technology">Expo</span><span class="technology">TailwindCSS</span><span class="technology">Tamagui</span><span class="technology">Redux</span><span class="technology">oxc</span></div>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">Frontend Desktop Developer</span>
+                <span class="info-subtitle">Nationwide Telephony Assistance</span>
+                <span class="info-subtitle">5/2022 to 7/2025 (3y, 2m)</span>
+                <span class="info-description">​I was responsible for the development of the MobeX UC desktop application, built with React and Electron, with application styles managed by Styled-components for a modular and maintainable user interface. My work involved designing and implementing a robust event-driven architecture that leveraged Websockets and WebRTC for real-time handling of call events and related information. I managed the application&#39;s data storage and state using a combination of Electron Store and the React Context API, ensuring data consistency across the main and renderer processes. Beyond development, I also contributed to a small project in Rust for clipboard management, enabling a seamless &quot;click-to-call&quot; feature. I regularly conducted code reviews for other developers&#39; pull requests and collaborated with management and directors on key technical and product-related decisions. I followed Scrum and Kanban principles to organize my tasks and worked closely with design teams by using Figma.</span>
+                <div class="technologies"><span class="technology">Bitbucket</span><span class="technology">ContextAPI</span><span class="technology">Electron</span><span class="technology">Jira</span><span class="technology">Kanban</span><span class="technology">React</span><span class="technology">Scrum</span><span class="technology">Styled-components</span><span class="technology">Webpack</span><span class="technology">WebRTC</span><span class="technology">Websockets</span></div>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">Frontend Web and Mobile Developer</span>
+                <span class="info-subtitle">Develcode Tecnologia em Sistemas</span>
+                <span class="info-subtitle">3/2021 to 5/2022 (1y, 2m)</span>
+                <span class="info-description">I joined the front-end team for the Leroy Merlin web portals, using React, Redux, and pure CSS. My work included writing SQL queries for translations. I also occasionally supported the back-end team by contributing to their Java services when they were under heavy workload. I was then reallocated to the Droga Raia and Drogasil team, where I contributed to their mobile applications, built with React Native. I was part of a team working with a design system, where my responsibilities included contributing to the Node.js and GraphQL-based BFF. Although I was not officially titled as a leader, I leveraged my skills from various leadership courses to help guide the team. Throughout both projects, I collaborated closely with QA and design (Figma) teams and utilized Scrum and Kanban to ensure efficient project delivery.</span>
+                <div class="technologies"><span class="technology">CSS</span><span class="technology">GitHub</span><span class="technology">GitLab</span><span class="technology">GraphQL</span><span class="technology">Java</span><span class="technology">Jira</span><span class="technology">Kanban</span><span class="technology">Node</span><span class="technology">React Native</span><span class="technology">React</span><span class="technology">Redux</span><span class="technology">Scrum</span><span class="technology">Springboot</span><span class="technology">SQL</span></div>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">Fullstack Developer</span>
+                <span class="info-subtitle">Inforbyte</span>
+                <span class="info-subtitle">9/2020 to 2/2021 (5m)</span>
+                <span class="info-description">I contributed to the full-stack development of InforFrota, a multi-platform solution for managing public entity fleets. My work on the back end involved building a robust API with Node and Express, using Joi and Celebrate for data validation, all hosted on an Apache server with Nginx. I leveraged Sequelize to connect and interact with the Firebird SQL database. For the front end, I developed both a web dashboard using React, Redux, and Styled-components, and a mobile application with React Native and StyleSheet. Both platforms were connected to the back end using Axios, ensuring a seamless flow of data.</span>
+                <div class="technologies"><span class="technology">Axios</span><span class="technology">Celebrate</span><span class="technology">Express</span><span class="technology">Firebird</span><span class="technology">Joi</span><span class="technology">Node</span><span class="technology">React Native</span><span class="technology">React</span><span class="technology">Redux</span><span class="technology">Sequelize</span><span class="technology">SQL</span><span class="technology">Styled-components</span><span class="technology">StyleSheet</span></div>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">Frontend Web Developer</span>
+                <span class="info-subtitle">Nucleus of Engineering, Technology and Science</span>
+                <span class="info-subtitle">4/2020 to 7/2020 (3m)</span>
+                <span class="info-description">I developed the RDO (Daily Construction Report) platform, a mobile solution built with Angular and Ionic. The platform was designed to streamline the registration of construction activities, providing real-time data to help workers and managers with resource control and project visibility.</span>
+                <div class="technologies"><span class="technology">Angular</span><span class="technology">CSS</span><span class="technology">Ionic</span><span class="technology">JavaScript</span></div>
+              </div>
+            
       </div>
     </div>
   
       
+    <div class="subsection">
+      <span class="subsection-title">Education</span>
+      <div class="infos">
+        
+              <div class="info">
+                <span class="info-title">Computer Engineering</span>
+                <span class="info-subtitle">Universidade Federal do Maranhão</span>
+                <span class="info-subtitle">3/2018 to 8/2022 (4y, 5m)</span>
+              </div>
+            
+      </div>
+    </div>
+  
       
+    <div class="subsection">
+      <span class="subsection-title">Projects</span>
+      <div class="infos">
+        
+              <div class="info">
+                <a class="info-title" href="https://github.com/richardqcarvalho/prezentme" target="_blank" rel="noopener noreferrer">PrezentMe</a>
+                <span class="info-description">PrezentMe is a presentation generator so people can fill it with information of them and generate a beautiful HTML to upload to their website showcasing everything they can offer to people interesting in their jobs</span>
+                <div class="technologies"><span class="technology">React</span><span class="technology">Next</span><span class="technology">React Hook Form</span><span class="technology">TailwindCSS</span><span class="technology">TypeScript</span><span class="technology">Zod</span><span class="technology">Zustand</span></div>
+              </div>
+            
+              <div class="info">
+                <a class="info-title" href="https://github.com/richardqcarvalho/monopoly-machine" target="_blank" rel="noopener noreferrer">Monopoly Machine</a>
+                <span class="info-description">An application that helps us to do all the Monopoly financial interactions with no need to use the paper money or to buy the transactions machine</span>
+                <div class="technologies"><span class="technology">Axios</span><span class="technology">Docker</span><span class="technology">Framer Motion</span><span class="technology">Node</span><span class="technology">Postgres</span><span class="technology">React</span><span class="technology">Socket.io</span><span class="technology">Styled Components</span><span class="technology">TypeORM</span></div>
+              </div>
+            
+      </div>
+    </div>
+  
       
+    <div class="subsection">
+      <span class="subsection-title">Setup</span>
+      <div class="infos">
+        
+              <div class="info">
+                <span class="info-title">Acer Nitro V</span>
+                <span class="info-description">i5-13420H, RTX 3050, 1TB+512GB SSD, 16GB+16GB RAM</span>
+              </div>
+            
+              <div class="info">
+                <span class="info-title">Mac Mini</span>
+                <span class="info-description">M2, 512GB SSD, 8GB RAM</span>
+              </div>
+            
+      </div>
+    </div>
+  
       <span class="footer">Generated by
         <a
           href="https://prezentme.vercel.app"
           target="_blank"
+          rel="noopener noreferrer"
         >
           PrezentMe
         </a>
-        © <a
+        ©
+        <a
           href="https://github.com/richardqcarvalho/prezentme"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Richard Carvalho
         </a>
